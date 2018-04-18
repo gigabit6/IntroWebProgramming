@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Week3</title>
+	</head>
+	<body>
+		<div id="myDiv" class="customDiv">Sampe text</div>
+		<div id="myDiv2"  class="customDiv">Sampe text</div>
+		<div  class="customDiv">Sampe text</div>
+
+		<span>A Word</span>
+		<span>A Word</span>
+		<span>A Word</span>
+		<span>A Word</span>
+
+		<br>
+		<form action="index.php" method="post">
+			
+			<div>
+				<input type="text" name="firstName"
+				size="50" placeholder="Enter your name">
+			</div>
+
+			<div>
+				<input type="password" name="password" maxlength="5">
+			</div>
+
+		<fieldset>
+		<legend>My Radio Buttons</legend>
+			<input type="radio" name="gender" id="male" value="male" disabled>
+			<label for="male">Male</label>
+
+			<br>
+			<input type="radio" name="gender" id="female" value="female">
+			<label for="female">Female</label>
+		</fieldset>
+			<br>
+
+			<input type="checkbox" name="receive" id="news" value="news" disabled>
+			<label for="news">Newsletter</label>
+
+			<br>
+
+			<input type="checkbox" name="receive" id="message" value="message">
+			<label for="message">Message</label>
+			<br>
+
+			<input type="checkbox" name="receive" id="notification" value="notification">
+			<label for="notification">Notification</label>
+
+			<br>
+
+			<input type="color" name="color" value="#ff0000">
+
+			<br>
+
+			<input type="number" name="age">
+
+			<br>
+
+			<input type="range" name="percent" value="50">
+
+			<br>
+			<br>
+			<br>
+			<select name="options">
+				<option value="option1">Option1</option>
+				<option value="option2">Option2</option>
+				<option value="option3">Option3</option>
+			</select>
+			<br>
+			<br>
+
+			<textarea rows="40" cols="40" name="information"></textarea>
+			<br>
+			<input value="Reset" type="reset" name="reset">
+			<br>
+			<input value="Send" type="submit" name="submit">
+		</form>
+	</body>
+</html>
