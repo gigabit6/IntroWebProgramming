@@ -1,0 +1,28 @@
+#title{
+	color: rgb(111, 117, 60);
+	background-color: pink
+}
+#paragraph{
+	background-image: url('background.jpg');
+}
+#container{
+	border-style: dashed dotted solid double;
+	width: 50%;
+	height: 200px;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+}
+#content{
+	text-decoration: line-through;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	line-height: 20px;
+	word-spacing: 10px;
+	text-shadow: 14px 4px 5px rgba(123, 150, 150, 1);
+
+	font-family: Arial;
+	font-style: italic;
+	font-size: 26px;
+	font-weight: bold;
+}

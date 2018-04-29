@@ -1,0 +1,37 @@
+#par{
+	color: rgb(246, 0, 179);
+	background-color: yellow
+}
+#element{
+	background-color: pink;
+	color: blue
+}
+
+#bckgImage{
+	background-image: url('backgound.jpg');
+	background-repeat: no-repeat;
+	background-position: right;
+	color: white;
+}
+
+#borders{
+	border-style: dashed double dotted solid;
+	/*height: 200px;*/
+	margin: 20px 200px 50px 2px;
+	padding: 10px;
+}
+
+#font{
+	text-align: right;
+	/*text-decoration: line-through;*/
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	line-height: 30px;
+	word-spacing: 20px;
+	text-shadow: 15px 5px 5px rgba(174, 150, 150, 1);
+
+	font-family: Arial;
+	font-style: italic;
+	font-size: 30px;
+	font-weight: bold;
+}
