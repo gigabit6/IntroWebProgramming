@@ -1,0 +1,85 @@
+@font-face{
+	font-family: "myFont";
+	src: url('IndieFlower.ttf');
+}
+
+body{
+	font-family: 'myFont'
+}
+
+#myList{
+	/*list-style-type: square;*/
+	/*list-style-image: url('icon.png');*/
+	/*list-style-type: none;*/
+}
+
+#myList li{
+	display: inline;
+}
+
+#myTable, #myTable td {
+	border: 2px dotted red;
+	border-collapse: collapse;
+}
+
+.inline-block{
+	width: 40%;
+	height: 50px;
+	border: 1px solid blue;
+	display: inline-block;
+}
+
+#relative{
+	width: 300px;
+	height: 300px;
+	border: 2px dashed purple;
+	position: relative;
+	top: 20px;
+	left: 100px;
+}
+
+#absolute{
+	width: 50px;
+	height: 50px;
+	border: 1px dotted blue;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+#overflow{
+	width: 400px;
+	height: 100px;
+	border: 2px solid pink;
+	overflow: auto;
+}
+
+#overflow>img{
+	float: right;
+	width: 50px;
+}
+
+#no-float{
+	width: 100px;
+	height: 100px;
+	border: 1px solid orange;
+	clear: left;
+}
+.float{
+	width: 50px;
+	height: 40px;
+	border :1px solid yellow;
+}
+.float{
+	float: left;
+}
+
+#link:visited{
+	color: pink;
+}
+
+#link:hover{
+	color: red;
+}
+#link::after{
+	content: 'Hello';
+}
