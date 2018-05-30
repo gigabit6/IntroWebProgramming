@@ -1,0 +1,15 @@
+img{
+	width: 20px;
+	height: 20px;
+	visibility: hidden;
+}
+
+.inputRow{
+	margin: 20px;
+	text-align: center;
+}
+
+#myForm{
+	width: 30%;
+	margin: 0 auto;
+}
